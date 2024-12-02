@@ -1,3 +1,10 @@
+//@Reference https://docs.unity3d.com/6000.0/Documentation/ScriptReference/RectTransform.html
+//@Reference https://www.youtube.com/watch?v=bRcMVkJS3XQ&ab_channel=MoreBBlakeyyy
+//@Reference https://docs.unity3d.com/2020.1/Documentation/ScriptReference/Animator.SetTrigger.html
+//@Reference https://www.youtube.com/watch?v=EkgGRQXBfCc&ab_channel=PlottelDev
+//@Reference https://www.codeproject.com/Articles/1210435/Day-Creating-Player-Health-System-and-Health-UI
+//@Reference https://www.youtube.com/watch?v=_1Oou4459Us&ab_channel=NightRunStudio
+
 using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;

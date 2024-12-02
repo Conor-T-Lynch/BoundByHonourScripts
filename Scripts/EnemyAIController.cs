@@ -1,3 +1,10 @@
+//@Reference https://www.youtube.com/watch?v=b-WZEBLNCik&ab_channel=GDTitans
+//@Reference https://www.youtube.com/watch?v=db0KWYaWfeM&ab_channel=CodeMonkey
+//@Reference https://www.youtube.com/watch?v=yWcupAmA-lY&ab_channel=UnityGuy
+//@Reference https://docs.unity3d.com/2020.1/Documentation/ScriptReference/Animator.SetTrigger.html
+//@Reference https://www.codeproject.com/Articles/1210435/Day-Creating-Player-Health-System-and-Health-UI
+//@Reference https://www.youtube.com/watch?v=_1Oou4459Us&ab_channel=NightRunStudio
+
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;

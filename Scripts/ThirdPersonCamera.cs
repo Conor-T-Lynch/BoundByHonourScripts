@@ -1,3 +1,8 @@
+//@Reference https://www.youtube.com/watch?v=DXw9QhsjlME&ab_channel=GameDevExperiments
+//@Reference https://www.youtube.com/watch?v=Esz2MqxhNig&ab_channel=SunnyValleyStudio
+//@Reference https://www.youtube.com/watch?v=NeifEiWjaZA&ab_channel=SunnyValleyStudio
+//@Reference https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Quaternion.html
+
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;

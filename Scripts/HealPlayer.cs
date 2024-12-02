@@ -1,3 +1,6 @@
+//@Reference https://www.youtube.com/watch?v=bRcMVkJS3XQ&ab_channel=MoreBBlakeyyy
+//@Reference https://docs.unity3d.com/2021.3/Documentation/Manual/collider-interactions-example-scripts.html
+
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;

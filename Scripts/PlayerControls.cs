@@ -1,3 +1,10 @@
+//@Reference https://www.youtube.com/watch?v=DXw9QhsjlME&ab_channel=GameDevExperiments
+//@Reference https://www.youtube.com/watch?v=qc0xU2Ph86Q&ab_channel=SingleSaplingGames
+//@Reference https://www.youtube.com/watch?v=Esz2MqxhNig&ab_channel=SunnyValleyStudio
+//@Reference https://www.youtube.com/watch?v=NeifEiWjaZA&ab_channel=SunnyValleyStudio
+//@Reference https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Quaternion.html
+//@Reference https://docs.unity3d.com/2020.1/Documentation/ScriptReference/Animator.SetTrigger.html
+
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
@@ -8,7 +15,7 @@ public class PlayerControls : MonoBehaviour
     public float walkSpeed = 5f;
     //The speed of the player when running.
     public float runSpeed = 10f;
-    //The speed at how fast the player can rotate and turn towards the movementdirection.
+    //The speed at how fast the player can rotate and turn towards the movement direction.
     public float rotationSpeed = 1100f;
     //Reference to the camera transform to align movement with the camera direction.
     public Transform cameraTransform;
