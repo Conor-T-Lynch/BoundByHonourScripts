@@ -4,6 +4,15 @@
 //@Reference https://www.youtube.com/watch?v=NeifEiWjaZA&ab_channel=SunnyValleyStudio
 //@Reference https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Quaternion.html
 //@Reference https://docs.unity3d.com/2020.1/Documentation/ScriptReference/Animator.SetTrigger.html
+//@Reference https://discussions.unity.com/t/moving-character-relative-to-camera/614923
+//@Reference https://stackoverflow.com/questions/73590195/unity-accessing-rigidbody-component-with-input-system
+//@Reference https://docs.unity3d.com/ScriptReference/Component.GetComponent.html
+//@Reference https://www.youtube.com/watch?v=FD4dFZGhrQA&ab_channel=RSDevelopment
+//@Reference https://docs.unity3d.com/2021.3/Documentation/Manual/collider-interactions-example-scripts.html
+//@Reference https://www.youtube.com/watch?v=_1Oou4459Us&ab_channel=NightRunStudio
+//@Reference https://docs.unity3d.com/ScriptReference/Time.html
+//@Reference https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Transform.html
+//@Reference https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Vector3.html
 
 using UnityEngine;
 using System.Collections;

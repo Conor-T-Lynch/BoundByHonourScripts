@@ -2,6 +2,8 @@
 //@Reference https://www.youtube.com/watch?v=Esz2MqxhNig&ab_channel=SunnyValleyStudio
 //@Reference https://www.youtube.com/watch?v=NeifEiWjaZA&ab_channel=SunnyValleyStudio
 //@Reference https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Quaternion.html
+//@Reference https://stackoverflow.com/questions/43720669/lerp-with-time-deltatime
+//@Reference https://discussions.unity.com/t/quaternion-slerp-and-quaternion-lookrotation-help-please/455131
 
 using UnityEngine;
 using System.Collections;

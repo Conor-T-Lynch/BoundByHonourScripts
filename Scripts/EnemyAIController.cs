@@ -1,9 +1,15 @@
 //@Reference https://www.youtube.com/watch?v=b-WZEBLNCik&ab_channel=GDTitans
 //@Reference https://www.youtube.com/watch?v=db0KWYaWfeM&ab_channel=CodeMonkey
 //@Reference https://www.youtube.com/watch?v=yWcupAmA-lY&ab_channel=UnityGuy
+//@Reference https://www.youtube.com/watch?v=Esz2MqxhNig&ab_channel=SunnyValleyStudio
+//@Reference https://www.youtube.com/watch?v=NeifEiWjaZA&ab_channel=SunnyValleyStudio
 //@Reference https://docs.unity3d.com/2020.1/Documentation/ScriptReference/Animator.SetTrigger.html
 //@Reference https://www.codeproject.com/Articles/1210435/Day-Creating-Player-Health-System-and-Health-UI
 //@Reference https://www.youtube.com/watch?v=_1Oou4459Us&ab_channel=NightRunStudio
+//@Reference https://www.youtube.com/watch?v=5r6RmddoR80&ab_channel=chonk
+//@Reference https://docs.unity3d.com/ScriptReference/Time.html
+//@Reference https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Transform.html
+//@Reference https://connect-prd-cdn.unity.com/20190702/696ca78d-5ca8-481d-901c-9d788f051cea_Lesson_Plan_4.2___Follow_the_Player.pdf
 
 using UnityEngine;
 using System.Collections;

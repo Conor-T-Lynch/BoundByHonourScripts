@@ -4,6 +4,8 @@
 //@Reference https://www.youtube.com/watch?v=EkgGRQXBfCc&ab_channel=PlottelDev
 //@Reference https://www.codeproject.com/Articles/1210435/Day-Creating-Player-Health-System-and-Health-UI
 //@Reference https://www.youtube.com/watch?v=_1Oou4459Us&ab_channel=NightRunStudio
+//@Reference https://www.occasoftware.com/blog/a-beginners-guide-to-recttransforms-in-unity
+//@Reference https://stackoverflow.com/questions/8032996/c-sharp-progress-bar-change-color
 
 using UnityEngine;
 using UnityEngine.UI;
