@@ -4,6 +4,8 @@
 //@Reference https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Quaternion.html
 //@Reference https://stackoverflow.com/questions/43720669/lerp-with-time-deltatime
 //@Reference https://discussions.unity.com/t/quaternion-slerp-and-quaternion-lookrotation-help-please/455131
+//@Reference https://docs.unity3d.com/ScriptReference/Quaternion.Slerp.html
+//@Reference https://www.theslidefactory.com/post/quaternion-basics-in-unity3d#:~:text=Euler%20rotations%20use%20a%20set,a%20rotation%20in%203D%20space
 
 using UnityEngine;
 using System.Collections;
@@ -18,14 +20,14 @@ public class ThirdPersonCamera : MonoBehaviour
     //The speed at which the camera follows the player.
     public float followPlayerSpeed = 10f;
     //The speed at which the camera rotates to keep the player centered.
-    public float rotationPlayerSpeed = 5f;
+    public float rotationPlayerSpeed = 0f;
     //Speed at which the camera rotates horizontally based off player input.
     public float horizontalPlayerspeed = 100f;
 
     //Tracks horizontal input for the rotation from the rightstick of the gamepad.
     private float horizontalPlayerInput;
     //The current y axis rotation of the camera, adjusted as the player rotates.
-    private float currentPlayerYaw = 0f;
+    private float currentPlayerYaw = 5f;
 
     
     void LateUpdate()

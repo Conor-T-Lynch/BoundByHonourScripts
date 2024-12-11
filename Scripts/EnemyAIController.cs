@@ -10,6 +10,9 @@
 //@Reference https://docs.unity3d.com/ScriptReference/Time.html
 //@Reference https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Transform.html
 //@Reference https://connect-prd-cdn.unity.com/20190702/696ca78d-5ca8-481d-901c-9d788f051cea_Lesson_Plan_4.2___Follow_the_Player.pdf
+//@Reference https://www.theslidefactory.com/post/quaternion-basics-in-unity3d#:~:text=Euler%20rotations%20use%20a%20set,a%20rotation%20in%203D%20space
+//@Reference https://www.youtube.com/watch?v=4Wh22ynlLyk&ab_channel=PressStart
+//@Reference https://www.youtube.com/watch?v=_pKZ73mfIlM&ab_channel=RehopeGames
 
 using UnityEngine;
 using System.Collections;
@@ -33,7 +36,7 @@ public class EnemyAIController : MonoBehaviour
     //The cooldown time of the enemy attacks, so that the player isn't getting constantly spamed with attacks from the enemy.
     public float attackCooldown = 5f;
     //The last time at which the enemy has attacked, so as to manage the cooldown time of enemy attacks.
-    private float lastAttackTime = 0f;
+    private float lastAttackTime = 2f;
     //Reference to the animator componant of the enemy for handleing animations.
     private Animator animator;
     //Reference to the Playerhealth script, so that when called the player takes damage from enemy attacks.

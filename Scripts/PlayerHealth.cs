@@ -6,6 +6,8 @@
 //@Reference https://www.youtube.com/watch?v=_1Oou4459Us&ab_channel=NightRunStudio
 //@Reference https://www.occasoftware.com/blog/a-beginners-guide-to-recttransforms-in-unity
 //@Reference https://stackoverflow.com/questions/8032996/c-sharp-progress-bar-change-color
+//@Reference https://www.youtube.com/watch?v=_pKZ73mfIlM&ab_channel=RehopeGames
+//@Reference https://docs.unity3d.com/6000.0/Documentation/ScriptReference/RectTransform-sizeDelta.html
 
 using UnityEngine;
 using UnityEngine.UI;
@@ -100,7 +102,7 @@ public class PlayerHealth : MonoBehaviour
         UpdateHealthBar();
     }
 
-    //Healing method for such game objects sush as apples or pears ect.
+    //healing Method from food.
     public void HealFromFood(int healAmount)
     {
         //Checking to see if the player is dead if true, cease executing the logic from this heal method.

@@ -13,6 +13,9 @@
 //@Reference https://docs.unity3d.com/ScriptReference/Time.html
 //@Reference https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Transform.html
 //@Reference https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Vector3.html
+//@Reference https://www.theslidefactory.com/post/quaternion-basics-in-unity3d#:~:text=Euler%20rotations%20use%20a%20set,a%20rotation%20in%203D%20space
+//@Reference https://docs.unity3d.com/ScriptReference/Quaternion.RotateTowards.html
+//@Reference https://www.youtube.com/watch?v=4Wh22ynlLyk&ab_channel=PressStart
 
 using UnityEngine;
 using System.Collections;
