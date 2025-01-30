@@ -127,7 +127,7 @@ public class PlayerHealth : MonoBehaviour
             {   //Green.
                 healthBarFill.GetComponent<Image>().color = Color.green; 
             }
-            else if (healthPercentage > 0.25f)
+            else if (healthPercentage > 0.00f)
             {   //Orange.
                 healthBarFill.GetComponent<Image>().color = new Color(1f, 0.647f, 0f); 
             }
