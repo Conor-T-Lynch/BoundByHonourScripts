@@ -63,7 +63,7 @@ public class PlayerControls : MonoBehaviour
     {
         if (cameraTransform == null) return;
 
-        // Get horizontal input from the gamepad's left stick.
+        // Get horizontal input from the gamepad's right stick.
         float moveHorizontal = Input.GetAxis("Horizontal");
         // Get vertical input from the gamepad's left stick.
         float moveVertical = Input.GetAxis("Vertical");
