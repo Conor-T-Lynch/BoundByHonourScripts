@@ -34,7 +34,7 @@ public class EnemyAIController : MonoBehaviour
     // The range at which the enemy can attack the player.
     public float attackRange = 2f;
     // The cooldown time of the enemy attacks, so that the player isn't getting constantly spamed with attacks from the enemy.
-    public float attackCooldown = 5f;
+    public float attackCooldown = 2f;
     // The last time at which the enemy has attacked, so as to manage the cooldown time of enemy attacks.
     private float lastAttackTime = 2f;
     // AudioSource for playing sounds
@@ -87,7 +87,7 @@ public class EnemyAIController : MonoBehaviour
             if (distanceToPlayer <= attackRange)
             {
                 // Checking to see if enough time has passed since last attack.
-                if (Time.time >= lastAttackTime + attackCooldown)
+                if (Time.time >= attackCooldown + lastAttackTime)
                 {
                     // Execute the attacj method.
                     Attack();
