@@ -89,7 +89,7 @@ public class EnemyAIController : MonoBehaviour
                 // Checking to see if enough time has passed since last attack.
                 if (Time.time >= attackCooldown + lastAttackTime)
                 {
-                    // Execute the attacj method.
+                    // Execute the attack method.
                     Attack();
                     // Resetting the last attack time.
                     lastAttackTime = Time.time;
