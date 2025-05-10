@@ -4,7 +4,7 @@ This is a third-person action-adventure game built in Unity.
 
 # How to Play
 
-The game has been built using Unity's Build Settings and is available as a standalone executable. Simply download the build on your PC and run the game—no need to install Unity.
+Using Unity's Build Settings feature i created a standalone executable. Simply download the build on your PC and run the game—no need to install Unity.
 
 # Xbox Controller Supported
 
